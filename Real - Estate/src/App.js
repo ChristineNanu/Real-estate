@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 //import { Route, Routes } from "react-router-dom";
-import HomesList from "./HomesList.js";
-import "./style.css";
-import NavBar from "./NavBar.js";
-import Header from "./Header.js";
-import HomesForm from "./HomesForm.js";
+import HomesList from "./components/HomesList.js";
+import "./components/style.css";
+import NavBar from "./components/NavBar.js";
+import Header from "./components/Header.js";
+import HomesForm from "./components/HomesForm.js";
 
 function App() {
   const [homes, setHomes] = useState([]);
